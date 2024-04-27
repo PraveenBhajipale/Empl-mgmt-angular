@@ -1,0 +1,46 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(4, 3, 3);
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .btn4{
+    background-color: rgb(95, 95, 228);
+  }
+
+  .btn3{
+    background-color: rgb(208, 208, 49);
+  }
+  .btn2{
+    background-color: rgb(114, 182, 209);
+  }
+  .btn1{
+    background-color: rgb(194, 167, 167);
+  }

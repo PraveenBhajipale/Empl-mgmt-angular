@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header{
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: #039be5;
+    padding: 3px 5px;
+    height: 70px;
+  }
+  .content{
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 3px 5px;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  .footer{
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: #eee;
+    padding: 3px 15px;
+  }
+
+  .table-striped>tbody>tr:nth-child(2n)>td,
+.table-striped>tbody>tr:nth-child(2n)>th {
+    background-color: rgb(248, 248, 210);
+}
+
+.th-col {
+    background-color: rgb(183, 222, 109);
+    height: 50px;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.table {
+  margin-left: 40px;
+  width: 90vw;
+  height: auto;
+  border: 1px solid rgb(183, 222, 109);
+}
+
+.table-row {
+  cursor: pointer;
+  height: 36px;
+}
+
+.md-dialog-container {
+    background-color: #000;
+    width: 250px;
+    height: 250px
+}
+
+::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    left: 152% !important;
+    overflow-x: hidden;
+    // bottom: 265px !important;
+}

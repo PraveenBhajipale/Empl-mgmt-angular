@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped tab table-hover">
+    <thead>
+        <tr>
+            <th scope="col" class="th-col">Department ID</th>
+            <th scope="col" class="th-col">Department Name</th>
+            <th scope="col" class="th-col">Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row" (click)="rowData(data)" *ngFor="let data of consData">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.location}}</td>
+        </tr>
+    </tbody>
+</table>

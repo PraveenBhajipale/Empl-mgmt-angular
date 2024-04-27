@@ -1,0 +1,34 @@
+<div style="overflow-x: hidden;" class="container-full ">
+  <div class="header">
+    <div class="row">
+      <div class="col-lg-10"><h2>Employee Management System</h2></div>
+      <div class="col-lg-2"><button style="margin-top: 10px;" class="btn btn-primary" (click)="navigateToProducts()">products</button></div>
+    </div>
+    
+    
+  </div>
+  <div class="row">
+  </div>
+  <div class="content">
+    <div class="row">
+      <div *ngIf="!this.disableDepartment && !enableProducts">
+        <app-department (newItemEvent)="getData()"></app-department>
+        <!-- <app-employee *ngSh="apiService.showEmpData"></app-employee> -->
+      </div>
+      <div *ngIf="this.disableDepartment && !enableProducts">
+        <app-employee (newItemEvent)="navigateToDep()"></app-employee>
+      </div>
+      <div *ngIf="enableProducts">
+        <app-products-list></app-products-list>
+      </div>
+      
+      
+
+    </div>
+  </div>
+  <!-- <div class="footer">
+      <h2>footer</h2>
+    </div> -->
+</div>
+
+<!-- <router-outlet></router-outlet> -->

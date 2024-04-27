@@ -1,0 +1,30 @@
+.md-dialog-container {
+    background-color: #000;
+    width: 250px;
+    height: 250px
+}
+
+::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    left: 152% !important;
+}
+
+.form-control{
+    width: 85% !important;
+}
+
+.shift{
+    margin-left: 22px;
+    margin-bottom: 18px;
+}
+
+.top-space{
+    margin-top: 15px;
+}
+
+.cancel-btn{
+    margin-left: 153px;
+}
+
+.save-btn{
+    margin-left: 34px;
+}
